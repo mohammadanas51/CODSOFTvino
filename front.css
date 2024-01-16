@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.bar{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    
+}
+.container{
+    display: flex;
+    height: 93%;
+    width: 100%;
+    border:2px solid black;
+}
+.left{
+    display: flex;
+    width: 50%;
+    size: cover ;
+    background-color: beige;
+}
+.right{
+    display: flex;
+    background-color: burlywood;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia  ;
+    font-size: large;
+}
